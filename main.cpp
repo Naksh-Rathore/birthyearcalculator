@@ -6,7 +6,7 @@ int main() {
     int age;
 
     std::cout << "Name: ";
-    std::cin >> name;
+    std::getline(std::cin, name);
 
     std::cout << "Age: ";
     std::cin >> age;
